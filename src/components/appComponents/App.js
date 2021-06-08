@@ -7,7 +7,7 @@ import Sustainability from '../../pages/Sustainability';
 import PoliticalAction from '../../pages/PoliticalAction';
 import Nav from './Nav';
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, HashRouter } from 'react-router-dom';
 
 
 
@@ -18,14 +18,14 @@ class App extends Component {
       <div className="App">
         <Nav />
         <div className="container">
-          <Switch>
+          <HashRouter>
             <Route exact path="/" component={Home} /> 
             <Route exact path="/tracker" component={Tracker} /> 
             <Route exact path="/action" component={Action} />
             <Route exact path="/education" component={Education} />
             <Route exact path="/sustainability" component={Sustainability} />
             <Route exact path="/politicalaction" component={PoliticalAction} />
-          </Switch>
+          </HashRouter>
         </div>
       </div>
     </Router>
