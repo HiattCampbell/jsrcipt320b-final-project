@@ -19,7 +19,7 @@ class App extends Component {
         <Nav />
         <div className="container">
           <HashRouter>
-            <Route path="/" component={Home} /> 
+            <Route exact path="/" component={Home} /> 
             <Route path="/tracker" component={Tracker} /> 
             <Route path="/action" component={Action} />
             <Route path="/education" component={Education} />
