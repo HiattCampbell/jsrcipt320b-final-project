@@ -40,11 +40,12 @@ export default function AddGoal() {
                 <div className="radioGoal">
                     <input 
                         type="radio" 
-                        name="goal" id="goal1" 
+                        name="goal" 
+                        id="goal1" 
                         onClick={(e) => setGoal(e.target.value)} 
                         value="Recycle all paper products" 
                     />
-                    <label for="goal1">Recycle all paper products</label>
+                    <label>Recycle all paper products</label>
                 </div>
                 <div className="radioGoal">
                     <input 
@@ -54,7 +55,7 @@ export default function AddGoal() {
                         onClick={(e) => setGoal(e.target.value)} 
                         value="Call my representatives" 
                     />
-                    <label for="goal2">Call my representatives</label>
+                    <label>Call my representatives</label>
                 </div>
                 <div className="radioGoal">
                         <input 
@@ -64,7 +65,7 @@ export default function AddGoal() {
                         onClick={(e) => setGoal(e.target.value)} 
                         value="Read a book about the Green New Deal" 
                     />
-                    <label for="goal3">Read a book about the Green New Deal</label>
+                    <label>Read a book about the Green New Deal</label>
                 </div>
                 <div className="radioGoal">
                         <input 
@@ -74,7 +75,7 @@ export default function AddGoal() {
                         onClick={(e) => setGoal(e.target.value)} 
                         value="Bring reusable bags to the store" 
                     />
-                    <label for="goal4">Bring reusable bags to the store</label>
+                    <label>Bring reusable bags to the store</label>
                 </div>
                 <div className="radioGoal">
                         <input 
@@ -84,7 +85,7 @@ export default function AddGoal() {
                         onClick={(e) => setGoal(e.target.value)} 
                         value="Switch to LEDs" 
                     />
-                    <label for="goal5">Switch to LEDs</label>
+                    <label>Switch to LEDs</label>
                 </div>
             </div>
             <br></br>

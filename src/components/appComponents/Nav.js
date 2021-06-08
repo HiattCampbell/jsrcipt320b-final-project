@@ -30,7 +30,7 @@ export default class Nav extends Component {
             href=""
             to={`/tracker`}
           >
-           <h6>Sign in</h6>
+           <h6>Login</h6>
           </Link>
         </nav>
       </div>

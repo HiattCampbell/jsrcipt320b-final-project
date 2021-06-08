@@ -52,7 +52,7 @@ const Login = () => {
   return (
     <div className="loginContainer">
       <div className='inputBox'>
-        <h1>Login or Sing Up</h1>
+        <h1>Login or Sign Up</h1>
         <input 
           className="input"
           type="email"

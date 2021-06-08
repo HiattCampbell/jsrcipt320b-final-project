@@ -60,3 +60,48 @@ hr {
   width: 400px;
   margin: auto;
 }
+
+@media only screen and (max-device-width: 480px) {
+  
+  .homeBanner {
+    width: 150%;
+    padding: 0px;
+  }
+  
+  .homeBannerContainer {
+    margin: auto;
+    position: relative;
+    text-align: center;
+  }
+  
+  .homeBannerText {
+    font-size: 150%;
+    color: floralwhite;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    border: 1px solid floralwhite;
+    padding: 10px;
+    width: 80%;
+  }
+
+  .paragraph {
+    font-size: 95%;
+    padding: 35px 30px 25px 30px;
+    text-align: center;
+    line-height: 150%;
+  }
+
+  .trackerLinkContainer {
+    padding-right: 15%;
+    padding-left: 15%;
+  }
+
+  .trackerLink {
+    border: 1px solid rgb(0, 0, 50);
+    padding: 20px;
+    background-color: linen;
+    width: 90%;
+    margin: auto;
+  }
+}

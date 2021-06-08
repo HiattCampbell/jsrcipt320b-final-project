@@ -63,3 +63,24 @@
   margin-right: auto;
   padding: 0px 40px 10px 40px;
 }
+
+@media only screen and (max-device-width: 480px) {
+  .educationImg {
+    width: 50%;
+    height: 600px;
+    object-fit: cover;
+  } 
+
+  .educationText {
+    padding: 0px 10px 10px 10px;
+  }
+
+  .educationBanner {
+    height: 150px; 
+  }  
+
+  .educationBannerText {
+    margin-top: 30px;
+    font-size: 200%;
+  }
+}

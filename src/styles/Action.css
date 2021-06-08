@@ -53,3 +53,21 @@
 .cardText {
   padding: 0px 10px 0px 10px; 
 }
+
+@media only screen and (max-device-width: 480px) {
+  .cardsContainer {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .actionBanner {
+    height: 150px;
+  }
+
+  .actionBannerText {
+    font-size: 200%;
+  }
+}

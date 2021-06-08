@@ -66,3 +66,15 @@
   margin-bottom: 40px;
   width: 60%;
 }
+
+@media only screen and (max-device-width: 480px) {
+
+  .loginContainer {
+  width: 200px;
+  } 
+
+  .input {
+    width: 150px;
+  }
+
+}
