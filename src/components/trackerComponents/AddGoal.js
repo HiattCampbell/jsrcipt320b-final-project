@@ -24,7 +24,8 @@ export default function AddGoal() {
             .catch((err) => {
                 console.error(err);
             });
-        }
+    }
+
 
     return (
         <div>
@@ -33,6 +34,62 @@ export default function AddGoal() {
             <button onClick={() => add()}>
                 Add Goal
             </button>
+            <hr className="trackerHr"/>
+            <h2 className="suggestedGoalsTitle">Suggested Goals</h2>
+            <div className="suggestedGoals">
+                <div className="radioGoal">
+                    <input 
+                        type="radio" 
+                        name="goal" id="goal1" 
+                        onClick={(e) => setGoal(e.target.value)} 
+                        value="Recycle all paper products" 
+                    />
+                    <label for="goal1">Recycle all paper products</label>
+                </div>
+                <div className="radioGoal">
+                    <input 
+                        type="radio" 
+                        name="goal" 
+                        id="goal2" 
+                        onClick={(e) => setGoal(e.target.value)} 
+                        value="Call my representatives" 
+                    />
+                    <label for="goal2">Call my representatives</label>
+                </div>
+                <div className="radioGoal">
+                        <input 
+                        type="radio" 
+                        name="goal" 
+                        id="goal3" 
+                        onClick={(e) => setGoal(e.target.value)} 
+                        value="Read a book about the Green New Deal" 
+                    />
+                    <label for="goal3">Read a book about the Green New Deal</label>
+                </div>
+                <div className="radioGoal">
+                        <input 
+                        type="radio" 
+                        name="goal" 
+                        id="goal4" 
+                        onClick={(e) => setGoal(e.target.value)} 
+                        value="Bring reusable bags to the store" 
+                    />
+                    <label for="goal4">Bring reusable bags to the store</label>
+                </div>
+                <div className="radioGoal">
+                        <input 
+                        type="radio" 
+                        name="goal" 
+                        id="goal5" 
+                        onClick={(e) => setGoal(e.target.value)} 
+                        value="Switch to LEDs" 
+                    />
+                    <label for="goal5">Switch to LEDs</label>
+                </div>
+            </div>
+            <br></br>
+            <button className="addButton" onClick={() => add()}>Add Goal</button>
+            <hr className="trackerHr"/>
         </div>
     )
 }

@@ -10,12 +10,10 @@ export default function Goal() {
   const currentUserId = currentUser ? currentUser.uid : null;
   const [goals, setGoals] = useState([]);
   const [loading, setLoading] = useState(false);
-  //const { id } = useParams;
   
   const ref = firebase.firestore().collection("goals");
 
   function getGoals() {
-    //const owner = currentUser ? currentUser.uid : "unknown";
     setLoading(true);
     ref.where("owner", "==", currentUserId).onSnapshot((querySnapshot) => {
       const items = [];
@@ -50,15 +48,18 @@ export default function Goal() {
         <Welcome />
         <h1>Track Your Progress</h1>
         <AddGoal id={uuidv4()}/>
+        <h2>My Goals</h2>
         {goals.map((goal) => (
           <div key={goal.goal} className="goals"> 
-            <h4 key={goal.goal}>{goal.goal}</h4>
-            <div>
-              <button onClick={() => {
-                onDelete(goal);
-              }}>
-                Delete
-              </button>
+            <div className="goal">
+              <h4 key={goal.goal}>{goal.goal}</h4>
+              <div>
+                <button onClick={() => {
+                  onDelete(goal);
+                }}>
+                  Delete
+                </button>
+              </div>
             </div>
           </div>
         ))}

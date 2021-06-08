@@ -34,5 +34,35 @@
 .goals {
   display: inline-block;
   padding: 10px;
+  margin-top: -30px;
 }
 
+.goal {
+  width: 200px;
+}
+
+.addButton {
+ margin-top: 10px;
+}
+
+.radioGoal {
+  padding: 0px 10px 10px 10px;
+  width: 300px;
+}
+
+.suggestedGoals {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.suggestedGoalsTitle {
+  margin-top: 30px;
+}
+
+.trackerHr {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 60%;
+}
