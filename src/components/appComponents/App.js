@@ -7,14 +7,13 @@ import Sustainability from '../../pages/Sustainability';
 import PoliticalAction from '../../pages/PoliticalAction';
 import Nav from './Nav';
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, HashRouter } from 'react-router-dom';
+import { Route, HashRouter } from 'react-router-dom';
 
 
 
 class App extends Component {
   render() {
     return (
-      <Router>
       <div className="App">
         <Nav />
         <div className="container">
@@ -28,7 +27,6 @@ class App extends Component {
           </HashRouter>
         </div>
       </div>
-    </Router>
     );
   }
 }
