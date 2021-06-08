@@ -1,0 +1,55 @@
+.actionContainer {
+  margin-top: 0px;
+}
+
+.actionBanner {
+  max-width: 100%;
+  padding: 0px;
+  margin: auto;
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.actionBannerContainer {
+  top: 60px;
+  margin: auto;
+  position: relative;
+  text-align: center;
+}
+
+.actionBannerText {
+  font-size: 300%;
+  color: floralwhite;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+  border: 1px solid floralwhite;
+  padding: 20px;
+}
+
+.cardsContainer {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  margin: 20px;
+  width: 200px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.cardImg {
+  width: 200px;
+  height: 175px;
+  object-fit: cover;
+}
+
+.cardText {
+  padding: 0px 10px 0px 10px; 
+}

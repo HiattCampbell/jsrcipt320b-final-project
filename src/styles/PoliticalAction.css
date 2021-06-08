@@ -1,0 +1,77 @@
+.politicalActionContainer {
+  margin-top: 10px;
+}
+
+.politicalActionBanner {
+  max-width: 100%;
+  padding: 0px;
+  margin: auto;
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.politicalActionBannerContainer {
+  top: 60px;
+  margin: auto;
+  position: relative;
+  text-align: center;
+}
+
+.politicalActionBannerText {
+  font-size: 300%;
+  color: floralwhite;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+  border: 1px solid floralwhite;
+  padding: 20px;
+}
+
+.politicalActionBody {
+  margin-top: 80px;
+}
+
+.representatives {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px, 10px, 0px, 10px;
+}
+
+.representative {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 300px;
+  border: 1px solid rgb(0, 0, 50);
+  margin: 30px 10px 10px 10px;
+  background-color: linen;
+  padding: 0px 10px 0px 10px;
+}
+
+.scripts {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.script {
+  width: 400px;
+  margin: 30px 10px 10px 10px;
+  
+}
+
+.scriptTitle {
+  margin-bottom: 10px;
+}
+
+.scriptText {
+  margin-top: 15px;
+  text-align: left;
+  line-height: 150%;
+  padding: 10px 20px 20px 20px;
+}

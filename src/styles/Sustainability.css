@@ -1,0 +1,63 @@
+.sustainabilityContainer {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sustainabilityBanner {
+  max-width: 100%;
+  padding: 0px;
+  margin: auto;
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.sustainabilityBannerContainer {
+  top: 60px;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  margin-bottom: -4px;
+  padding-bottom: 0px;
+}
+
+.sustainabilityBannerText {
+  font-size: 300%;
+  color: floralwhite;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+  border: 1px solid floralwhite;
+  padding: 20px;
+}
+
+.sustainabilityInfo {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.sustainabilityImg {
+  width: 450px;
+  height: 700px;
+  object-fit: cover;
+} 
+
+.sustainabilityTopic {
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid rgb(0 0 50);
+}
+
+.sustainabilityText {
+  margin-top: 20px;
+  text-align: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 40px 10px 40px;
+}

@@ -1,0 +1,20 @@
+.App, h4, h5, h6 {
+  font-family: Helvetica;
+  font-weight: lighter;
+  color: rgb(0, 0, 50);
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Aclonica';
+  color: rgb(0, 0, 50);
+}
+
+body {
+  background-color: floralwhite;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}

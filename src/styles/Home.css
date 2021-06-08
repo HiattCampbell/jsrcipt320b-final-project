@@ -1,0 +1,62 @@
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.homeBanner {
+  max-width: 100%;
+  padding: 0px;
+  margin: auto;
+}
+
+.homeBannerContainer {
+  top: 60px;
+  margin: auto;
+  position: relative;
+  text-align: center;
+}
+
+.homeBannerText {
+  font-size: 300%;
+  color: floralwhite;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+  border: 1px solid floralwhite;
+  padding: 20px;
+}
+
+.paragraph {
+  font-size: 105%;
+  padding: 35px 90px 25px 90px;
+  text-align: center;
+  line-height: 200%;
+  margin-top: 40px;
+}
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 50%;               
+  background-color:rgb(0, 0, 50);
+  height: 0.5px;
+}
+
+.trackerHeader {
+  padding: 20px;
+}
+
+.trackerLinkContainer {
+  padding-right: 25%;
+  padding-left: 25%;
+}
+
+.trackerLink {
+  border: 1px solid rgb(0, 0, 50);
+  padding: 20px;
+  background-color: linen;
+  width: 400px;
+  margin: auto;
+}

@@ -1,0 +1,38 @@
+.trackerContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+}
+
+.loginContainer {
+  background-color: linen;
+  width: 350px;
+  padding: 30px;
+  padding-top: 20px;
+  margin: auto;
+  border: 1px solid rgb(0, 0, 50);
+  margin-top: 20px
+}
+
+.inputBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  width: 250px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.loginButton {
+  width: 100px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.goals {
+  display: inline-block;
+  padding: 10px;
+}
+

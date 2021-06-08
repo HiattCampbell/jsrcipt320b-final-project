@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  height: 60px;
+  z-index:1000;
+  background-color: floralwhite;
+  width: 100%;
+}
+
+.navbar > .navbar-brand {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.logo {
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+  position: absolute;
+}
