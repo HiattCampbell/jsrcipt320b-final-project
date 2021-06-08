@@ -13,21 +13,21 @@ export default class Nav extends Component {
           <Link 
             className="navbar-brand col-sm-3 col-md-2 mr-0 align-items-center"
             href=""
-            to={`/`}
+            to={`/#/`}
           >
            <h6>Home</h6>
           </Link>
           <Link 
             className="navbar-brand col-sm-3 col-md-2 mr-0 align-items-center"
             href=""
-            to={`/action`}
+            to={`/#/action`}
           >
            <h6>Action</h6>
           </Link>
           <Link 
             className="navbar-brand col-sm-3 col-md-2 mr-0 align-items-center"
             href=""
-            to={`/tracker`}
+            to={`/#/tracker`}
           >
            <h6>Sign in</h6>
           </Link>
